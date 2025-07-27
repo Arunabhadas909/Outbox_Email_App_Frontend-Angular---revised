@@ -12,7 +12,7 @@ import { map,filter } from 'rxjs';
   providedIn: 'root'
 })
 export class EmailService {
-private apiUrl = 'https://outbox-email-app-backend.onrender.com';
+private apiUrl = 'https://outbox-email-app-backend.onrender.com/api';
 
   constructor(private http: HttpClient) {}
 
